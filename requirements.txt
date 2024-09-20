@@ -38,7 +38,7 @@ fiona              # via geopandas
 flickrapi 
 gast                # via tensorflow
 gensim 
-geopandas 
+geopandas==0.5.0 
 google-pasta        # via tensorflow
 grpcio             # via tensorboard, tensorflow
 h5py 
@@ -63,7 +63,7 @@ jupyter-core        # via jupyter-client, nbconvert, nbformat, notebook, qtconso
 jupyter 
 keras-applications   # via keras, tensorflow
 keras-preprocessing   # via keras, tensorflow
-keras 
+keras==2.13.1 
 kiwisolver          # via matplotlib
 librosa 
 llvmlite           # via numba
@@ -81,7 +81,7 @@ notebook
 numba              # via librosa, resampy
 numpy              # via gensim, h5py, imageio, keras, keras-applications, keras-preprocessing, librosa, matplotlib, numba, pandas, resampy, scikit-learn, scipy, tensorboard, tensorflow
 oauthlib            # via requests-oauthlib
-pandas             # via geopandas
+pandas==0.25.3             # via geopandas
 pandocfilters       # via nbconvert
 parso               # via jedi
 pexpect             # via ipython
@@ -123,7 +123,7 @@ spotipy
 svglib 
 tensorboard        # via tensorflow
 tensorflow-estimator   # via tensorflow
-tensorflow 
+tensorflow
 termcolor           # via tensorflow
 terminado           # via notebook
 testpath            # via nbconvert
@@ -141,5 +141,6 @@ wheel              # via tensorboard, tensorflow
 widgetsnbextension   # via ipywidgets
 wrapt         # via tensorflow
 
+fsspec
 # The following packages are considered to be unsafe in a requirements file:
 # setuptools         # via ipython, jsonschema, kiwisolver, markdown, protobuf, tensorboard, tinycss2
